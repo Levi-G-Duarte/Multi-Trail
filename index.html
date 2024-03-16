@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Cursor Trail</title>
+    <link rel="stylesheet" href="styles.css">
+   
+</head>
+<body>
+    <h1>Welcome to the Multi-Cursor Trail Page</h1>
+    <section>Below are button options, these buttons toggle a cursor option and a styles option. Choose you combination!</section>
+    <div id="Cursor-Buttons">
+        <h1>Cursors</h1>
+        <button onclick="addDiceClass('dice')">Dice</button>
+        <button onclick="addDiceClass('atom')">Atom</button>
+        <button onclick="addDiceClass('code')">Code</button>
+        <button onclick="addDiceClass('empire')">Empire</button>
+        <button onclick="addDiceClass('fan')">Fan</button>
+        <button onclick="addDiceClass('radiation')">Radiation</button>
+    </div>
+    <div id="reset">
+        <button onclick="addDiceClass('null')">RESET</button>
+    </div>
+    <div id="Colors-Buttons">
+        <h1>Colors</h1>
+        <button onclick="colorChange('fire')">Fire</button>
+        <button onclick="colorChange('rain')">Rain</button>
+        <button onclick="colorChange('rainbow')">Rainbow</button>
+        <button onclick="colorChange('toxic')">Toxic</button>
+        <button onclick="colorChange('neon')">Neon</button>
+        <button onclick="colorChange('imperial')">Imperial</button>
+    </div>
+    <div id="reset">
+        <button onclick="colorChange('null')">RESET</button>
+    </div>
+    <div id="Animate-Buttons">
+        <h1>Animation</h1>
+        <button onclick="animationChange('spin')">Spin</button>
+        <button onclick="animationChange('fall')">Fall</button>
+        <button onclick="animationChange('shrink')">Shrink</button>
+        <button onclick="animationChange('dissolve')">Dissolve</button>
+        <button onclick="animationChange('grow')">Grow</button>
+    </div>
+    <div id="reset">
+        <button onclick="animationChange('null')">RESET</button>
+    </div>
+
+    <script src="https://kit.fontawesome.com/1917c64d41.js" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>
